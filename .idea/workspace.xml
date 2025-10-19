@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17f102c6-127a-4fb8-a5fc-6ca9dad962c8" name="Changes" comment="Initial Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="17f102c6-127a-4fb8-a5fc-6ca9dad962c8" name="Changes" comment="Changed README.md">
       <change beforePath="$PROJECT_DIR$/../TodoApp/todo_app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoApp/todo_app/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,11 +130,20 @@
       <option name="project" value="LOCAL" />
       <updated>1760846470703</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changed README.md">
+      <option name="closed" value="true" />
+      <created>1760848317870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760848317870</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Changed README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed README.md" />
   </component>
 </project>
