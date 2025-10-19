@@ -3,22 +3,24 @@
 A modern, colorful, and type-safe command-line To-Do manager, built entirely in Python.
 Demonstrates clean CLI architecture, modular design, data validation, and professional developer practices.
 
-🚀 Features
+## 🚀 Features
 
-✅ CRUD for tasks — add, list, update, complete, delete
-✅ Priority levels (low, medium, high)
-✅ Due dates (validated with Pydantic + datetime)
-✅ Tags/categories
-✅ Search & filter tasks by tag, due date, or priority
-✅ Pretty terminal output with Rich (colors, tables, emojis)
-✅ Data validation with Pydantic models
-✅ Type hints (mypy-ready)
-✅ Export tasks to JSON, Markdown, or CSV
-✅ --json flag for machine-readable API-style output
-✅ Modular architecture (Click command groups + helpers + models)
-✅ Comprehensive test coverage using pytest
+✅ **CRUD for tasks** — add, list, update, complete, delete  
+✅ **Priority levels** (`low`, `medium`, `high`)  
+✅ **Due dates** (validated with `Pydantic` + `datetime`)  
+✅ **Tags/categories** for better organization  
+✅ **Search & filter** tasks by tag, due date, or priority  
+✅ **Pretty terminal output** with `Rich` (colors, tables, emojis)  
+✅ **Data validation** with `Pydantic` models  
+✅ **Type hints** (`mypy`-ready)  
+✅ **Export tasks** to JSON, Markdown, or CSV  
+✅ **--json flag** for machine-readable API-style output  
+✅ **Modular architecture** (Click command groups + helpers + models)  
+✅ **Comprehensive test coverage** using `pytest`
 
-🏗️ Project Structure
+## 🏗️ Project Structure
+
+```text
 todo_app/
 │
 ├── cli/
@@ -60,7 +62,7 @@ todo_app/
 ├── pyproject.toml      # Project metadata and CLI setup
 ├── README.md
 └── .gitignore
-
+```
 ⚙️ Installation
 1️⃣ Clone and open in PyCharm
 git clone https://github.com/eparr12/todo-cli.git
@@ -190,10 +192,13 @@ todo tasks list
 ![Todo Search Help](docs/screenshots/TodoSearchHelpMenu.png)
 ![Todo Search](docs/screenshots/TodoSearch.png)
 
+
 📦 Exporting
 ![Todo Export Help Menu](docs/screenshots/TodoExportHelpMenu.png)
 ![Todo Export CLI](docs/screenshots/TodoExportCLI.png)
 ![Todo Exported Files](docs/screenshots/TodoExportedFiles.png)
+
+
 
 🗒️ Example Output (Rich Table)
 🗒️ To-Do List
