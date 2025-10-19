@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "title": "Master Python",
+        "priority": "high",
+        "due_date": "2025-11-01",
+        "tags": [
+            "programming"
+        ],
+        "completed": true,
+        "created_at": "2025-10-18 23:00"
+    }
+]

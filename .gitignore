@@ -1,0 +1,47 @@
+# Bytecode & caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Env files
+.env
+
+# Packaging/build
+build/
+dist/
+*.egg-info/
+
+# Runtime data
+data/tasks.json
+exports/*.csv
+exports/*.md
+exports/*.json
+
+# Databases (future-proof)
+*.db
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Mypy / caches
+.mypy_cache/
+.pytest_cache/
+.coverage
+
+# Editors/IDE
+.idea/
+.vscode/
+*.iml
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todo-app"
+version = "0.1.0"
+description = "A modern, colorful, and type-safe command-line To-Do manager built entirely in Python. Demonstrates clean CLI architecture, modular design, data validation, and professional developer practices."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "click",
+    "rich",
+    "pydantic>=2.0",
+    "pytest",
+    "pytest-cov",
+]
+# SPDX license format (avoids future warning)
+license = { text = "MIT" }
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cli*", "models*", "utils*", "data*"]
+
+[project.scripts]
+todo = "cli.main:main"
