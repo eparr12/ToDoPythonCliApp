@@ -1,4 +1,4 @@
-🧠 To-Do CLI App (Python + Click + Rich + Pydantic)
+## 🧠 To-Do CLI App (Python + Click + Rich + Pydantic)
 
 A modern, colorful, and type-safe command-line To-Do manager, built entirely in Python.
 Demonstrates clean CLI architecture, modular design, data validation, and professional developer practices.
@@ -63,58 +63,58 @@ todo_app/
 ├── README.md
 └── .gitignore
 ```
-⚙️ Installation
-1️⃣ Clone and open in PyCharm
+## ⚙️ Installation
+## 1️⃣ Clone and open in PyCharm
 git clone https://github.com/eparr12/todo-cli.git
 cd todo-cli
 
-2️⃣ Create and activate virtual environment
+## 2️⃣ Create and activate virtual environment
 python -m venv venv
 venv\Scripts\activate
 
-3️⃣ Install dependencies
+## 3️⃣ Install dependencies
 pip install click rich pydantic pytest
 
-4️⃣ Install package locally (for global CLI use)
+## 4️⃣ Install package locally (for global CLI use)
 pip install -e .
 
-🧩 Usage Overview
-🏁 CLI Overview
+## 🧩 Usage Overview  
+## 🏁 CLI Overview
 todo --help
 
-📋 Tasks Command Help
+## 📋 Tasks Command Help
 todo tasks --help
 
-➕ Add a New Task
+## ➕ Add a New Task
 todo tasks add "Finish portfolio project" --priority high --due 2025-10-31 --tags coding,python
 
-📝 Update a Task
+## 📝 Update a Task
 todo tasks update 1 --title "Finalize project writeup"
 
-✅ Mark a Task Complete
+## ✅ Mark a Task Complete
 todo tasks complete 1
 
-❌ Delete a Task
+## ❌ Delete a Task
 todo tasks delete 1
 
-🔍 Search Help Menu
+## 🔍 Search Help Menu
 todo search --help
 
-🔎 Search by Tag
+## 🔎 Search by Tag
 todo search by --tags "Programming"
 
-📦 Export Help Menu
+## 📦 Export Help Menu
 todo export --help
 
-📤 Export Commands (JSON, CSV, Markdown)
+## 📤 Export Commands (JSON, CSV, Markdown)
 todo export json
 todo export csv
 todo export md
 
-🤖 Machine-readable Output
+## 🤖 Machine-readable Output
 todo tasks list --json
 
-🧠 Design Decisions
+## 🧠 Design Decisions
 Component	Choice	Rationale
 CLI Framework	Click	Modern decorator-based syntax, built-in help menus, supports command groups
 Data Validation	Pydantic	Strict typing, automatic parsing, ensures clean data
@@ -122,7 +122,7 @@ Output Formatting	Rich	Beautiful tables, emojis, and colors for CLI UX
 Testing	Pytest	Clean, scalable, and popular in production
 Packaging	pyproject.toml	PEP 621-compliant modern Python packaging
 Persistence	JSON File	Lightweight, beginner-friendly persistence with no DB required
-🧰 Development Setup (Windows + PyCharm)
+## 🧰 Development Setup (Windows + PyCharm)
 
 Install Python: python.org/downloads
 
@@ -139,7 +139,7 @@ Run tests:
 
 pytest -v
 
-🧪 Testing & Quality Assurance
+## 🧪 Testing & Quality Assurance
 Run all tests
 pytest -v
 
@@ -155,11 +155,11 @@ black .
 isort .
 
 
-✅ Expected Output:
+## ✅ Expected Output:
 
 ======================== 35 passed in 0.23s ========================
 
-📦 Packaging & Distribution
+## 📦 Packaging & Distribution
 
 You can publish this CLI to PyPI or keep it local.
 
@@ -177,41 +177,48 @@ Run anywhere:
 
 todo tasks list
 
-🖼️ Demo (Full Screenshot Gallery)
-🏁 CLI Overview
+## 🖼️ Demo (Full Screenshot Gallery)
+
+## 🏁 CLI Overview
 ![Todo Help Menu](docs/screenshots/TodoHelpMenu.png)
 
-📋 Tasks Management
+## 📋 Tasks Management
 ![Todo Tasks Help Menu](docs/screenshots/TodoTasksHelpMenu.png)
 ![Todo Tasks Add](docs/screenshots/TodoTasksAdd.png)
 ![Todo Tasks Update](docs/screenshots/TodoTasksUpdate.png)
 ![Todo Tasks Complete](docs/screenshots/TodoTasksComplete.png)
 ![Todo Tasks Delete](docs/screenshots/TodoTasksDelete.png)
 
-🔍 Searching
+## 🔍 Searching
 ![Todo Search Help](docs/screenshots/TodoSearchHelpMenu.png)
-![Todo Search](docs/screenshots/TodoSearch.png)
+![Todo Search](docs/screenshots/TodoSearch.png)  
 
 
-📦 Exporting
+
+## 📦 Exporting
 ![Todo Export Help Menu](docs/screenshots/TodoExportHelpMenu.png)
 ![Todo Export CLI](docs/screenshots/TodoExportCLI.png)
 ![Todo Exported Files](docs/screenshots/TodoExportedFiles.png)
 
 
 
-🗒️ Example Output (Rich Table)
+## 🗒️ Example Output (Rich Table)
+
+Below is an example of how your To-Do list will look when displayed using **Rich** formatting in the terminal.
+
+```text
 🗒️ To-Do List
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━┓
 ┃ ID                         ┃ Title      ┃ Priority ┃ Due        ┃ Tags         ┃ Done  ┃
 ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━┩
 │ 1                          │ Learn CLI  │ High     │ 2025-10-31 │ coding,python│ ❌     │
 └────────────────────────────┴────────────┴──────────┴────────────┴──────────────┴───────┘
+```  
 
-🧑‍💻 Author
+## 💻 Author
 
 Ethan Parrish
 
-📜 License
+## 📜 License
 
 MIT License © 2025 Ethan Parrish
